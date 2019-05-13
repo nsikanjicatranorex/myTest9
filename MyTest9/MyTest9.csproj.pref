@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="StartAUT.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="StartAUT.rxrec" />
+    <Element value="Recording1.rxrec" />
+    <Element value="MyTest9.rxtst" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>
