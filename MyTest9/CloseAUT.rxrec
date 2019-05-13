@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7c998ffb-d2a9-40b0-a181-37683ac3353c"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="MyTest9">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="72dc9fbe-384a-478d-8fcf-e420b7c3345e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="47793db4-d90f-4334-bd38-fffa5778f42b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='RxDemoApp']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="002fe340-2b75-4cf5-9ba4-0118c9e39ac9"
+	name="MyTest9Repository"
+	relativepath="MyTest9Repository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="MyTest9Repository"
+		namespace="MyTest9">
+		</codegen>
+		<rootfolder
+		id="0c6fa540-5f0e-4a65-ba79-76e922935a0e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
